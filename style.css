@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fa;
+    margin: 0;
+    padding: 20px;
+}
+
+h1,
+h2 {
+    color: #0b4f6c;
+    text-align: center;
+}
+
+#busqueda-vuelos {
+    max-width: 500px;
+    margin: auto;
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+select,
+input,
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    margin-top: 20px;
+    background-color: #0b4f6c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #08394e;
+}
+
+#resultado-vuelos {
+    margin-top: 20px;
+    font-weight: bold;
+    text-align: center;
+}
