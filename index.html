@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agencia de Viajes STAR</title>
+</head>
+<body>
+
+    <h1>Agencia de Viajes STAR</h1>
+
+    <section id="busqueda-vuelos">
+        <h2>Búsqueda de vuelos</h2>
+
+        <form id="form-vuelos">
+            <label for="origen">Ciudad de origen:</label>
+            <select id="origen" required>
+                <option value="">Seleccione una ciudad</option>
+                <option value="Santiago">Santiago</option>
+                <option value="Antofagasta">Antofagasta</option>
+                <option value="Concepción">Concepción</option>
+            </select>
+
+            <br><br>
+
+            <label for="destino">Ciudad de destino:</label>
+            <select id="destino" required>
+                <option value="">Seleccione una ciudad</option>
+                <option value="Santiago">Santiago</option>
+                <option value="Antofagasta">Antofagasta</option>
+                <option value="Concepción">Concepción</option>
+            </select>
+
+            <br><br>
+
+            <label for="fecha-viaje">Fecha del viaje:</label>
+            <input type="date" id="fecha-viaje" required>
+
+            <br><br>
+
+            <button type="submit">Buscar vuelos</button>
+        </form>
+
+        <p id="resultado-vuelos"></p>
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
