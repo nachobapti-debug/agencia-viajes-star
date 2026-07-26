@@ -1,0 +1,28 @@
+<section id="busqueda-vuelos">
+    <h2>Búsqueda de vuelos</h2>
+
+    <form id="form-vuelos">
+        <label for="origen">Ciudad de origen:</label>
+        <select id="origen" required>
+            <option value="">Seleccione una ciudad</option>
+            <option value="Santiago">Santiago</option>
+            <option value="Antofagasta">Antofagasta</option>
+            <option value="Concepción">Concepción</option>
+        </select>
+
+        <label for="destino">Ciudad de destino:</label>
+        <select id="destino" required>
+            <option value="">Seleccione una ciudad</option>
+            <option value="Santiago">Santiago</option>
+            <option value="Antofagasta">Antofagasta</option>
+            <option value="Concepción">Concepción</option>
+        </select>
+
+        <label for="fecha-viaje">Fecha del viaje:</label>
+        <input type="date" id="fecha-viaje" required>
+
+        <button type="submit">Buscar vuelos</button>
+    </form>
+
+    <p id="resultado-vuelos" aria-live="polite"></p>
+</section>
