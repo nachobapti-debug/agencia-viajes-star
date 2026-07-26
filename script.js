@@ -23,3 +23,4 @@ formularioVuelos.addEventListener("submit", function (evento) {
         " hacia " + destino +
         " para el día " + fecha + ".";
 });
+ 
